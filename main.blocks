@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=":J^*7YOD`)nq4D6V=|oB">Player</variable><variable type="KIND_SpriteKind" id="1qw{_m6=2^p-xm4?,]SF">Projectile</variable><variable type="KIND_SpriteKind" id="~u3SHMu0YPAk4yL+-ZWO">Food</variable><variable type="KIND_SpriteKind" id="^R}09#y{-`!@ElakQ3{?">Enemy</variable><variable id="vw81jiR/0}MjTC7(^kEU">mySprite</variable><variable id="Nn%;cJFdvpf{r-=!xvhU">mySprite2</variable></variables><block type="pxt-on-start" id="wbO*P:8VvO{+-UF#dg$." x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="xad0|T0[r*HLE*EZwmGz"><field name="VAR" id="vw81jiR/0}MjTC7(^kEU">mySprite</field><value name="VALUE"><shadow type="math_number" id="QbQX$kPS)1sAToBW2-.1"><field name="NUM">0</field></shadow><block type="spritescreate" id="NSQ:%NVzV89sd=#|vwG5"><value name="img"><shadow type="screen_image_picker" id="I3*i)qR:toT8A@{i$6yz"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 2 2 2 2 2 2 2 2 2 . . . 
+. . . 2 2 . . . . . . . 2 2 . . 
+. . 2 2 . . . . . . . . . 2 2 . 
+. 2 2 . . . . . . . . . . . 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 f f f 2 2 2 2 2 2 2 2 f f f . 
+. f 5 f . 2 2 2 . . . . f 5 f . 
+. f f f . . . . . . . . f f f . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="*SjQ!7`gBhXccx60w0Rc"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="variables_set" id="VmooC_#ULRbR~+V^lc[j" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="476" y="228"><field name="VAR" id="vw81jiR/0}MjTC7(^kEU">mySprite</field><value name="VALUE"><shadow type="math_number" id="^~6ko)yRsh#rINl)L:WA" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value></block><block type="camerafollow" id=";?H-}RL2NVyE,VS0NRpZ" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="59" y="251"><value name="sprite"><block type="variables_get" id="dQLXC8$8roUY9nBqWy*)" disabled-reasons="MANUALLY_DISABLED"><field name="VAR" id="vw81jiR/0}MjTC7(^kEU">mySprite</field></block></value></block></xml>
